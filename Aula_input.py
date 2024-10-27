@@ -1,5 +1,3 @@
-
-
 # operação condicionais 
 
 entrada = input('Voce quer entrar ou sair do sitema : ')
@@ -12,3 +10,5 @@ elif entrada == 'Sair':
 
 else:
     print('você não digitou nem um nem outro')        
+
+    
