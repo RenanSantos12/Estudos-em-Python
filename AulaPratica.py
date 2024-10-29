@@ -8,16 +8,28 @@
 #    
 #else:
 #    print('o numero maior é', segundo, 'e o menor é', primeiro)
+ 
+# -------------------------------------------------
 
- # TODO condição AND
+entrada = input(f'[E]ntar [S]air :')
+senha = input('senha :')
+senha_acesso = '4022'
 
- entrada = input('[E]ntar [S]air :')
- senha = input('senha :')
- senha_acesso = '4022'
-
- if entrada == 'E' and senha == senha_acesso:
+if entrada == 'E' or 'e' and senha == senha_acesso:
     print('entre')
 
 else:
-    print('Sair')    
+    print('Sair !!')    
 
+# -------------------------------------------------
+
+# not in
+
+nome = input('Digite seu nome :')
+encontrar = input('digite o que deseja encontrar :')
+
+if encontrar in nome:
+    print(f'{encontrar} esta em {nome}')
+
+else:
+    print('erro')    
