@@ -10,7 +10,6 @@
 #    print('o numero maior é', segundo, 'e o menor é', primeiro)
  
 # -------------------------------------------------
-
 entrada = input(f'[E]ntar [S]air :')
 senha = input('senha :')
 senha_acesso = '4022'
