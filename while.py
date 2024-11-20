@@ -32,6 +32,7 @@ while linha <= qnt_linha:
     linha +=1        '''
 
 
+
 frase = 'o python é uma linguagem de programação'
 
 i = 0
