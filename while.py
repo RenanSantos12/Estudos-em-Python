@@ -19,7 +19,7 @@ print('acabou')'''
 
 # while dentro de outro while
 
-qnt_linha = 5 
+'''qnt_linha = 5 
 qnt_coluna = 5
 
 linha = 1
@@ -29,4 +29,18 @@ while linha <= qnt_linha:
     while coluna <= qnt_coluna: # verifica primeiro o while interno ai dps que a coluna atingir 5, ai sim volta pra validação de linhas
         print(f'{linha=} {coluna=}')
         coluna += 1
-    linha +=1        
+    linha +=1        '''
+
+
+frase = 'o python é uma linguagem de programação'
+
+i = 0
+
+while i < len(frase):
+    letra_atual = frase[i]
+
+    
+    
+    print(letra_atual)
+    i += 1
+
